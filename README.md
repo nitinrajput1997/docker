@@ -32,3 +32,8 @@ docker search ubuntu
 docker pull ubuntu
 docker images
 ```
+
+### Running a Docker Container
+```bash
+docker run -it ubuntu
+```
