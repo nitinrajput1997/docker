@@ -18,3 +18,9 @@ su - ${USER}
 groups
 sudo usermod -aG docker username
 ```
+
+### Docker Command
+```bash
+docker [option] [command] [arguments]
+docker info
+```
