@@ -24,3 +24,11 @@ sudo usermod -aG docker username
 docker [option] [command] [arguments]
 docker info
 ```
+
+### Working with Docker Images
+```bash
+docker run hello-world
+docker search ubuntu
+docker pull ubuntu
+docker images
+```
