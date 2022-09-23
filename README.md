@@ -17,6 +17,7 @@ sudo usermod -aG docker ${USER}
 su - ${USER}
 groups
 sudo usermod -aG docker username
+sudo chmod 666 /var/run/docker.sock
 ```
 
 ### Docker Command
